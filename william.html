@@ -3,9 +3,196 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>william</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        a{
+            text-decoration: none;
+        }
+        ul, ol, li{
+            list-style: none;
+        }
+        /* ======== */
+        .container{
+            margin: 0 auto;
+            width: 1170px;
+        }
+        .navbar{
+            height: 20px;
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 69px;
+        }
+        .navbar .nav{
+            display: flex;
+        }
+        .navbar .nav a{
+            margin-left:46px ;
+            color: #838383;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+        .about{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 85px;
+            margin-bottom: 36px;
+        }
+        .about h3{
+            color: #222;
+            font-family: Raleway;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 26px; /* 144.444% */
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        .about h1{
+            color: #222;
+            font-family: Raleway;
+            font-size: 72px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 88px; /* 122.222% */
+            text-transform: capitalize;
+            margin-bottom: 30px;
+        }
+        .about  span{
+            color: #F05D7B;
+            font-family: Raleway;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 26px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        .about p{
+            color: #838383;
+            font-family: Raleway;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px; /* 162.5% */
+            letter-spacing: 0.2px;
+            margin-bottom: 50px;
+        }
+         .about_pic{
+            width: 639px;
+            height: 639px;
+            border-radius: 50%;
+            border: 1px solid #8671FC;
+            flex-shrink: 0;
+         }
+         .btn_grp{
+            display: flex;
+            gap: 35px;
+            align-items: center;
+         }
+         .btn_grp .hire_me {
+            width: 162px;
+            height: 60px;
+            flex-shrink: 0;
+            border-radius: 30px;
+            background: #8671FC;
+
+             color: #FFF;
+            text-align: center;
+            font-family: Raleway;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: uppercase;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+         }
+         .btn_grp .hire_me:hover{
+            color: #8671FC;
+            background:#FFF;
+            border: 1px solid #8671FC;
+            transition: 0.5s all;
+         }
+         .btn_grp .resume{
+            width: 201px;
+            height: 19px;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            color: #8671FC;
+            font-family: Raleway;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: uppercase;
+
+         }
+      
+         /* .btn_grp .resume:hover svg{
+            padding-right: 5px;
+            transition: 0.5s;
+         } */
+    </style>
 </head>
 <body>
-    
+<div class="container">
+
+   
+    <section class="navbar">
+        <a href="#">
+            <img src="img/William.std.png" alt="img">
+        </a>
+        <div class="nav">
+            <a href=""><li>About us</li></a>
+            <a href=""><li>Service</li></a>
+            <a href=""><li>Protfolio</li></a>
+            <a href=""><li>Cortract us</li></a>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="about_contain">
+            <h3>
+                hellow i'm <span>visula designer</span>
+            </h3>
+            <h1>william andersons</h1>
+            <p>
+                My ultimate motto is to fulfill the demand of the buyers by making them satisfied with proper file delivery in time and without delay.
+            </p>
+            <div class="btn_grp">
+             <a href="#" class="hire_me">HIRE ME</a>
+             <a href="#" class="resume">DOWNLOAD RESUME </a>
+
+             <svg class="btn_icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#0000F5"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg>
+            </div>
+        </div>
+
+        <div class="about_pic"></div>
+    </section>
+</div>
 </body>
 </html>
