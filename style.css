@@ -153,7 +153,8 @@ l
 }
 .contant{
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
+    align-items: center;
 }
 .title h3{
     color: #FFF;
@@ -196,4 +197,124 @@ l
     line-height: normal;
     text-transform: uppercase;
     padding-top: 70px;
+}
+.contant_right h1{
+    width: 360px;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.3px;
+}
+.contant_right p{
+    width: 421px;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.2px;
+}
+.contant_right h4{
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 144.444% */
+}
+.skill{
+    background: #FCFCFF;
+    width: 100%;
+    height: 4724px;
+    margin: 150px 0;
+}
+
+.skill_title h4{
+    color: #222;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 144.444% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.skill_title h1{
+    color: #222;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 144.444% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+.skill_item{
+    display: flex;
+    justify-content: space-between;
+}
+.illustrator{
+    width: 370px;
+    min-height: 334px;
+    flex-shrink: 0;
+    background: #F05D7B;
+    box-shadow: 0 30px 25px 0 rgba(0, 0, 0, 0.10);
+}
+.illustrator h4{
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px; /* 141.667% */
+    letter-spacing: 0.5px;
+
+    margin: 50px;
+}
+.illustrator p{
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.2px;
+
+    margin: 50px;
+}
+.illustrator a{
+    color: #FFF;
+    text-align: right;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+
+    padding: 50px;
+    height: 19px;
+    width: 103px;
+
+}
+.ux_designer{
+     width: 370px;
+    height: 334px;
+    flex-shrink: 0;
+    background: #F05D7B;
+    box-shadow: 0 30px 25px 0 rgba(0, 0, 0, 0.10);
+}
+.logo_designer{
+      width: 370px;
+    height: 334px;
+    flex-shrink: 0;
+    background: #F05D7B;
+    box-shadow: 0 30px 25px 0 rgba(0, 0, 0, 0.10);
 }
